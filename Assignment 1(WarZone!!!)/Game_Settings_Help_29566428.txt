@@ -1,0 +1,53 @@
+Game Settings
+-----------------
+1.Health Mode
+2.Improved Combat Mode
+3.Medics Mode
+4.User Prompt Medics Mode
+5.Extended Army Mode
+
+Health Mode
+------------
+Units have health rather than just losing by fighting.
+Knights have 3 health, Soldiers have 2, and Archers have 1 etc.
+Each unit now deals damage based on who they have an advantage over.
+If the unit has the advantage, they deal 3 damage,
+if the unit has the disadvantage, they deal 1,
+and if the unit has no advantage or disadvantage, they deal 2.
+
+Improved Combat Mode
+---------------------
+--In the cases where a unit would win, it instead deals its damage before the other
+unit is able to deal theirs. Soldiers hit Knights first, Archers hit Soldiers first, and
+Knights hit Archers first.
+--Knights are able to trample other units. If the Knight is fighting an Archer and
+the unit behind the Archer is another Archer, then the Knight deals its damage to
+both Archers.
+--If an Archer is at the front of its army but not in battle, they deal their damage to
+the opposing unit if they are still alive at the end of combat.
+
+Medics Mode
+------------
+Money remaining after the purchasing of armies will be used to hire and outfit medics.
+When a unit dies, it will be returned to the pool at the back of the army. 
+Each time this happens, supplies for the medics decreases.
+Once the medics have no supplies left, they will be unable to save any more units.
+Medics are hired and supplied at $1 per unit. 
+All money at the end of army creation is spent on Medics.
+
+User Prompt Medics Mode
+------------------------
+Has same features as in medics mode.
+Only difference is that user is been prompted wheather he wishes to apply medics or not.
+Note: If in any situation where user is not able to make choice like in instant result mode
+----  then user prompt medics will act same as medics node
+
+Extended Army Mode
+-------------------
+Add two new units for the commanders to choose from:
+--Siege Equipment: who win against everyone except Knights and Wizards.
+                  Health : 3
+                  cost: 1$
+--Wizard: who can beat anything, but they can’t dodge Archer arrows.
+          Health : 3
+          cost: 2$
