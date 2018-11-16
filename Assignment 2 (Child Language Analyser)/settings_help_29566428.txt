@@ -1,0 +1,70 @@
+Various Options Available are
+
+1.SLI Files Directory Path
+2.TD Files Directory Path
+3.Extracted Files Directory Prefix
+4.Cleaned Files Directory Prefix
+5.Data Type
+6.SLI Legend Label
+7.TD Legend label
+8.Plot Type
+9.Column Name
+10.Restore to Default Settings
+11.Help
+12.Go back to previous menu
+13.Exit
+
+SLI Files Directory Path
+------------------------
+This is the name of the directory where all our SLI Files are present
+
+TD Files Directory Path
+-----------------------
+This is the name of the directory where all our TD Files are present
+
+Extracted Files Directory Prefix
+--------------------------------
+This is the prefix name that will be appended to the name of the directory of Extracted Files
+
+Cleaned Files Directory Prefix
+-------------------------------
+This is the prefix name that will be appended to the name of the directory of Cleaned Files
+
+Data Type
+---------
+This option allows which data we should consider while analyzing like
+SLI only or TD only or both.
+
+SLI Legend Label
+----------------
+SLI files Legend label that will be used during analysing and visualising
+
+TD Legend Label
+---------------
+TD files Legend label that will be used during analysing and visualising
+
+Plot Type
+---------
+This option allows us to choose how the plot should be displayed like
+using a bar chart or simple plot etc.
+
+Column Name
+------------
+This option allow you to choose the column that you wish to analyze.
+Default value is mean data. That is mean values of all columns will be compared
+
+Restore to Default Settings
+---------------------------
+This option will reset all settings to its default values
+
+Help
+----
+This option provides help regarding the various settings options available
+
+Go back to previous menu
+-------------------------
+This option takes you back to main menu
+
+Exit
+-----
+You can use this option to exit from program

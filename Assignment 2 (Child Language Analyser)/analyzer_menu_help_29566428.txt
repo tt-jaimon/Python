@@ -1,0 +1,29 @@
+Various Options Available are
+
+1.Analyze Data
+2.Clean Data
+3.Settings
+4.Help
+5.Exit
+
+Analyze data
+-------------
+This option will analyze the data and show the result of various statistics.
+Data will be analyzed as per the settings has been configured.
+
+Clean Data
+-----------
+Data will be extracted and various filters will be applied based on the settings configured.
+
+Settings
+--------
+Provides various options for configuring to determine how data is to be analyzed.
+Like Plot type to be choose whether it should be bar chart or simple plot etc.
+
+Help
+-----
+Provides more details about the Child Naration Analyzers main menu options.
+
+Exit
+-----
+In order to exit from the game
